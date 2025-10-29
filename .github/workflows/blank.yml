@@ -18,6 +18,7 @@ jobs:
   generate-index:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: gacts/directory-listing@v1
         with:
           target: ./
@@ -26,3 +27,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
+          publish_branch: gh-pages
