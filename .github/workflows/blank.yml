@@ -22,7 +22,9 @@ jobs:
       - uses: gacts/directory-listing@v1
         with:
           target: ./
-          ignore: 'CNAME'
+          ignore: |
+            CNAME
+            present2.ics
           overwrite: true
 
       - uses: peaceiris/actions-gh-pages@v4

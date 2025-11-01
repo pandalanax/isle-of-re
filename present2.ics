@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:http://ticket.io/
+METHOD:PUBLISH
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+UID:ticketio5eeddf243f6ac6761f977f0859ff96fa
+CLASS:PUBLIC
+SUMMARY:Week-End Fest XIV - Saturday Nov 8
+LOCATION:Stadtgarten Köln, Venloer Straße 40, 50672 Köln
+DTSTART;TZID=Europe/Berlin:20251108T190000
+DTEND;TZID=Europe/Berlin:20251109T050000
+DTSTAMP:20251018T124522
+DESCRIPTION:Saturday, Nov 8 Anna Domino / Céline Dessberg / Emma-Jean Thackray / A Guy Called Gerald / E.P.I.Q. / Polypixa   * There is no seating at the concerts. * The concert hall and café-restaurant at Sta...
+ORGANIZER;CN="Week-End Fest":MAILTO:noreply@ticket.io
+END:VEVENT
+END:VCALENDAR
